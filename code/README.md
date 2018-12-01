@@ -1,11 +1,11 @@
-##What was I looking for?
+## What was I looking for?
 
 We were interested in looking for relationships between crime and
 change in Labour vote share. For instances, there have been large
 increases in violent crime in London over the last few years. Are
 those areas more likely to vote Labour?
 
-##What did I do?
+## What did I do?
 
 We have crime data for each London ward on a monthly basis from Jan
 2016 - June 2018. I looked at two variables across a number of categories.
@@ -43,7 +43,7 @@ import runCorrelation
 runCorrelation.getCorrelation (regime)
 the regime is either 'rates' or 'amounts'
 
-##What did I find?
+## What did I find?
 
 I did not find any significant correlations between any of the
 categories and the pct change of the labour vote share. 
