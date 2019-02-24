@@ -1,5 +1,7 @@
 ## What is included in this repository:
+
 --- DATA ---
+
 FOLDER 2018-05 boundaries - this contains raw data in multiple JSON files extracted from https://data.police.uk using the API the data covers the period Jan-2016 to May-2018 (all analysis and additional files are based on this data)
 
 CrimeByWard-LabourVoteChange.csv - aggregated crime count data by ward and year with percentage change in Labour vote between the 2014 and 2018 labour council elections
@@ -7,7 +9,9 @@ CrimeByWard-LabourVoteChange.csv - aggregated crime count data by ward and year 
 crimes_by_ward_by_month.csv - count of crimes in each ward in each month
 
 LabourChangeByWard.csv - increase / decrease percentage of Labour vote share by ward comparing local elections in 2014 and 2018
+
 --- CODE ---
+
 Crime_and_labour_vote_change_total_processFEB19.ipynb - complete notebook for processing the raw json data into dataframes and doing correlation / regression analysis. Runtime ~ 5min
 
 Have a look at the fork for the notebook which contains the API request script for creating the jsons from the police data site
